@@ -27,7 +27,7 @@ floor_y = 368
 
 #bird
 bird = pygame.image.load("bird.png")
-bird_rect = bird.get_rect(center=(50,420//2))
+bird_rect = bird.get_rect(center=(50,WINDOW_H//2))
 #loop
 play = True
 
