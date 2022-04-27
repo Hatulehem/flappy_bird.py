@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import *
+import random
 
 def draw_floor():
     screen.blit(floor, (floor_x,floor_y))
@@ -26,8 +26,14 @@ floor_x = 0
 floor_y = 368
 
 #bird
+white = (255,255,255)
 bird = pygame.image.load("bird.png")
+# bird.set_colorkey(white)
+# bird(white).convert_alpha()
 bird_rect = bird.get_rect(center=(50,WINDOW_H//2))
+
+
+# bird = 
 #loop
 play = True
 
